@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WorkingHours</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+</resources>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_gr">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORK SCHEDULE"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:onClick="onSignUp"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="LogIn"
+        android:onClick="onLogIn"
+        android:layout_below="@+id/signup"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
